@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ["http://localhost:3000", "https://stock-app.vercel.app"],
+    origin: ["http://localhost:3000", "https://stock-app-rs2i.onrender.com"],
     credentials: true,
 }));
 
